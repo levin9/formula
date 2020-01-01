@@ -42,6 +42,7 @@ func init() {
 		NewTanFunction(),
 		NewTruncateFunction(),
 		NewAndFunction(),
+		NewEqualFunction(),
 	}
 
 	for i := 0; i < len(fs); i++ {
